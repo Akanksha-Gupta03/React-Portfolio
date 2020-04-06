@@ -1,14 +1,18 @@
 import React from 'react';
+import "../style/Contact.css"
 
 function Contact(props){
     return(
-        <div class="contact bg-info" id="contactSection">
+        
+        <div class="contact bg-info">
             <div class="container">
-                <h1><strong>contact me</strong></h1>
-                <h2 id="heart">&hearts;</h2>
+            <div class="card mx-auto">
+            <div class="card-body">
+                <h1 class="contHead">contact me</h1>
+                <h2 class="heart i">&hearts;</h2>
                 <div class="row">
                 <div class="col-lg-12">
-                    <h2 id="my-email">akanksha.rapti@gmail.com</h2>
+                    <h2 class="my-email">akanksha.rapti@gmail.com</h2>
                     <button onclick="copyEmail('#my-email')">copy email</button>
                 </div>
                 </div>
@@ -48,6 +52,8 @@ function Contact(props){
 
             </div>
         </div>  
+        </div>
+        </div>
  );
 }
 export default Contact;

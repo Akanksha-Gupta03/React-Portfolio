@@ -7,7 +7,7 @@ function Footer(props){
         <div class="footer">
          <footer class="copyright">
           <div class="heart" id="heart">
-           <i class="fa fa-heart" aria-hidden="true"></i>
+           <i class="fa fa-heart icon" aria-hidden="true"></i>
           </div>
           <p>&copy; 2020 Akanksha Gupta</p>
          </footer>

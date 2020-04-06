@@ -5,12 +5,11 @@
     opacity: .70;
     padding: 20px;
     color: white;
-    position: fixed;
-    bottom: 0;
+    /* bottom: 0;
     left: 0;
-    right: 0;
+    right: 0; */
     text-align: center;
   }
-  i{
+  .icon{
       color: red;
   }

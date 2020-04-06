@@ -1,0 +1,35 @@
+.contact{
+    background-color: #221e3f !important;
+    height: 100vh;
+}
+.card{
+    margin-top: 20%;
+    background-color: #443c80;
+    padding: 5% 20%;
+    filter: drop-shadow(1px 1px 5px rgb(138, 140, 141));
+}
+.contHead{
+    color: seashell;
+}
+.i{
+    color: red;
+}
+.contact {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 2%;
+    color: #eee;
+}
+
+button {
+    border-radius: 5px;
+    margin-bottom: 1%;
+    background-color: #fd57bf;
+    border-color: #eee;
+    padding-bottom:7px;
+}
+
+button:hover {
+    background-color: #221e3f;
+    color: #ffe838;
+}

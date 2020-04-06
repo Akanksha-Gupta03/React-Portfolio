@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/ProjectCard.css"
+import "aos";
 
 function ProjectCard( props ){
     return (
