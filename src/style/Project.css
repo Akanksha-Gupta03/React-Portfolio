@@ -1,0 +1,17 @@
+.portfolio {
+    color:  black !important;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    background-color: #f5eeba;
+}
+
+.thumbnailWrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+.portHead{
+    font-size: 3.5rem;
+}
+
