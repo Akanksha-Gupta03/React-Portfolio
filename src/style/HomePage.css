@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+.jumbotron{
+    background-image: url("https://castlesluxury.files.wordpress.com/2015/06/bigstock-navy-background-2827031.jpg");
+    height: 100vh;
+    background: cover;
+}
+
+.text,.skills{
+    color: seashell;
+}
+h6{
+    font-size: 25px;
+}
+h1{
+    font-size: 70px;
+}
+h3{
+    font-size: 35px;
+}
+.row1{
+    padding-top: 10%;
+}
+.row2{
+    padding-top: 8%;
+}
+.row3{
+    padding-top: 4px;
+}
+.heading{
+    color: seashell;
+    font-size: 30px;
+}
+.btn{
+    border-radius: 4px;
+    border: 1px solid #eee;
+    padding:10px 20px ;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .5s ease;
+    background-color: #fd57bf;
+    margin-top: 20px;
+}
+a {
+    color: black;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: #ffe838;
+}
+.image{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+.skills{
+    font-size: 25px;
+}
+

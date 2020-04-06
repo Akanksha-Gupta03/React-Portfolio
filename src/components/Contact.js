@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Contact(){
+function Contact(props){
     return(
-        [Contact]  
+        <>[Contact]</>  
  );
 }
 export default Contact;

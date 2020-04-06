@@ -1,8 +1,51 @@
 import React from 'react';
+import "../style/NavBar.css";
 
-function NavBar(){
-    return(
-        [NavBar]  
- );
+import { Link, useLocation } from "react-router-dom";
+
+/* activePage  | changePage-call-back */
+function NavBar() {
+  const location = useLocation();
+  const style = {
+      logo: { width: '64px', height: '64px' }
+  }
+
+  return (
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <Link to="/" className="navbar-brand">
+          <img src='https://i.pinimg.com/originals/6e/d2/43/6ed243fcb389252740f7c4c41e07b560.jpg' alt="" style={style.logo} />
+      </Link>
+      {/* <a class="navbar-brand" href="#" onClick={ function(){ props.changePage('AboutPage')} }>Pupster</a> */}
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li className="nav-item">
+            <Link to="/homepage" className={location.pathname === "/homePage" ? "nav-link active" : "nav-link"}>
+             <p class="p">Home Page</p>
+            </Link>
+          </li>          
+          <li className="nav-item">
+            <Link to="/aboutpage" className={location.pathname === "/aboutpage" ? "nav-link active" : "nav-link"}>
+              <p class="p">About Me</p>
+            </Link>
+          </li> 
+          <li className="nav-item">
+            <Link to="/project" className={location.pathname === "/project" ? "nav-link active" : "nav-link"}>
+              <p class="p">Project</p>
+            </Link>
+          </li>                   
+          <li className="nav-item">
+            <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
+              <p class="p">Contact</p>
+            </Link>
+          </li>                   
+        </ul>
+      </div>
+    </nav>
+  );
 }
+
 export default NavBar;

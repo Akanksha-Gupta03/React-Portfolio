@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Project(){
+function Project(props){
     return(
-        [Project]  
+        <>[Project]</>
  );
 }
 export default Project;
