@@ -6,7 +6,7 @@ function Contact(props){
         
         <div class="contact bg-info">
             <div class="container">
-            <div class="card mx-auto">
+            <div class="card mx-auto cardStyle">
             <div class="card-body">
                 <h1 class="contHead">contact me</h1>
                 <h2 class="heart i">&hearts;</h2>
