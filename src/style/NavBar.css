@@ -1,23 +1,11 @@
 .navbar{
-    background-color: #0a0911 !important;
     position: fixed;
     z-index: 1;
-    opacity: 1;
     top: 0;
     left: 0;
     right: 0;
     
 }
-.navbar-toggler-icon{
-    background-color: white;
-}
 .p{
-    font-size: 1.5rem;
-    color: white;
-    font-family: cursive;
-}
-.p:hover {
-    border-radius: 100px;
-    background-image: linear-gradient(45deg, rgb(138, 65, 116), #c7d322);
-    border: none;
+    font-size: 1.5rem;  
 }
