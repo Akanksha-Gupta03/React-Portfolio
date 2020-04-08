@@ -21,27 +21,12 @@ function Contact(props){
 
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item">
-                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href=" #">
-                            <i class="fa fa-fw fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href=" #">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/akanksha-gupta-151516148/">
                             <i class="fa fa-fw fa-linkedin"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href=" #">
-                            <i class="fa fa-fw fa-instagram"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href=" #">
-                                <i class="fa fa-fw fa-pinterest"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href=" #">
+                            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/Akanksha-Gupta03">
                                 <i class="fa fa-fw fa-github"></i>
                             </a>
                         </li>
