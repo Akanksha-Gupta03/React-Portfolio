@@ -4,15 +4,17 @@
 }
 .cardStyle{
     margin-top: 20%;
-    background-color: #443c80;
+    background-color: #1d1930;
     padding: 5% 20%;
     filter: drop-shadow(1px 1px 5px rgb(138, 140, 141));
+    opacity: 0.7;
 }
 .contHead{
     color: seashell;
+    padding-bottom: 4%;
 }
-.i{
-    color: red;
+.my-email{
+    padding-bottom: 4%;
 }
 .contact {
     text-align: center;
@@ -20,13 +22,13 @@
     padding-bottom: 2%;
     color: #eee;
 }
-
 button {
     border-radius: 5px;
     margin-bottom: 1%;
     background-color: #fd57bf;
     border-color: #eee;
     padding-bottom:7px;
+    margin-bottom: 4%;
 }
 
 button:hover {

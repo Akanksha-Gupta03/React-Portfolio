@@ -15,4 +15,9 @@
 .portHead{
     font-size: 5rem;
 }
+@media screen and(max-width:468px){
+    .portHead{
+        font-size: 20px;
+    }
+}
 

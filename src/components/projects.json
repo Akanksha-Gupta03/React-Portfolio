@@ -1,21 +1,32 @@
 [
     {"name": "Cooking For Dummies",
      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTlW6arQNhxx7VzSTzoweMsfFcoeXTweVRpi8w1nCV2YS2v1QxY&usqp=CAU",
-     "link":"https://stephanieblom.github.io/Project-1/"},
+     "link":"https://stephanieblom.github.io/Project-1/",
+     "description":"This web application is designed to take a user step by step through any recipe found on the internet. The user is able to save their favourite recipes and access them later. User is provided with nutritional information.Technologies used: HTML,CSS,Javascript,Food and Nutrition API"},
+
     {"name": "Fitness Diaries",
      "image":"https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?",
-     "link":"https://fitness-diaries.herokuapp.com/"},
+     "link":"https://fitness-diaries.herokuapp.com/",
+     "description":"Fitness Diaries is a web application which is designed for people who would like to follow a fitness regime or lose weight.This application uses MVC design pattern with local server-side API."},
+
     {"name": "Password-Generator",
      "image":"https://i0.wp.com/thevpn.guru/wp-content/uploads/2019/05/Strong-Password-Generator.jpg?",
-     "link":"https://akanksha-gupta03.github.io/Password-Generator/"},
+     "link":"https://akanksha-gupta03.github.io/Password-Generator/",
+     "description":"Password-Generator is a web application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by JavaScript code.HTML,CSS,Javascript"},
+
     {"name": "Code Quiz",
      "image":"https://ichef.bbci.co.uk/childrens-responsive-ichef-ck/400xn/amz/cbbc/bp-codebreaking-quiz.jpg",
-     "link":"https://akanksha-gupta03.github.io/Code-Quiz/"},
+     "link":"https://akanksha-gupta03.github.io/Code-Quiz/",
+     "description":"Code quiz is a timed quiz game with multiple-choice questions.Technologies used:HTML,CSS,Javascript"},
+
     {"name": "Day Planner",
      "image":"https://allwordsmatter.com/wp-content/uploads/2018/01/Depositphotos_128703896_m-2015-720x400.jpg",
-     "link":"https://akanksha-gupta03.github.io/Day-Planner/"},
+     "link":"https://akanksha-gupta03.github.io/Day-Planner/",
+     "description":"Day-Planner is a simple calendar application that allows the user to save events for each hour of the day.Technologies used: HTML,CSS,Javascript"},
+     
     {"name": "Weather-Forecast",
      "image":"https://i0.wp.com/mountainreporter.com/wp-content/uploads/2019/03/Weather-Report.jpg?",
-     "link":"https://akanksha-gupta03.github.io/Weather-Forecast/"}
+     "link":"https://akanksha-gupta03.github.io/Weather-Forecast/",
+     "description":"A simple weather app that retrieves the current weather and 5 day forecast data for any location you choose. Technologies used are:jQuery, OpenWeather API, HTML & CSS, Javascript"}
 
 ]

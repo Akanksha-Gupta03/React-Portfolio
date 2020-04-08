@@ -8,12 +8,10 @@ function Contact(props){
             <div class="container">
             <div class="card mx-auto cardStyle">
             <div class="card-body">
-                <h1 class="contHead">contact me</h1>
-                <h2 class="heart i">&hearts;</h2>
+                <h1 class="contHead">CONTACT ME</h1>
                 <div class="row">
                 <div class="col-lg-12">
                     <h2 class="my-email">akanksha.rapti@gmail.com</h2>
-                    <button onclick="copyEmail('#my-email')">copy email</button>
                 </div>
                 </div>
                 <div class="row">
